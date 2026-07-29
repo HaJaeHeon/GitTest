@@ -1,11 +1,13 @@
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] PlayerInfo playerInfo;
+    [SerializeField] private PlayerInfo playerInfo;
+    [SerializeField] private GameObject SettingsPanel;
     
     [SerializeField] private Slider hpSlider;
     [SerializeField] private TMP_Text hpText;
@@ -13,11 +15,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text expText;
     StringBuilder sb = new StringBuilder();
 
+    [SerializeField] private Button TitleButton;
+    [SerializeField] private Button QuitButton;
+
+    [SerializeField] InputActionReference SettingAction;
+
 
     private void OnEnable()
     {
         playerInfo.OnChangedHp += ChangeHpBarHandler;
         playerInfo.OnChangedExp += ChangeExpBarHandler;
+        SettingAction.action.performed += SettingPanelToggled;
+
+        TitleButton.onClick.AddListener(SceneLoader.instance.LoadStartScene);
+        QuitButton.onClick.AddListener(SceneLoader.instance.QuitGame);
     }
 
     public void ChangeHpBarHandler(float value)
@@ -36,5 +47,10 @@ public class UIManager : MonoBehaviour
         sb.Clear();
         sb.Append(value);
         expText.text = sb.ToString();
+    }
+
+    public void SettingPanelToggled(InputAction.CallbackContext obj)
+    {
+        SettingsPanel.SetActive(!SettingsPanel.activeSelf);
     }
 }
