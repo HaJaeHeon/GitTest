@@ -6,12 +6,14 @@ public class ObjectPooling : MonoBehaviour
 {
     [SerializeField] GameObject poolPrefab;
     [SerializeField] int poolSize;
+    [SerializeField] Transform parentTransfrom;
 
     Queue<GameObject> poolQueue = new Queue<GameObject>();
 
     private void Awake()
     {
         GameObject parentObject = new GameObject(poolPrefab.name);
+        parentTransfrom = parentObject.transform;
 
         for(int i = 0;  i < poolSize; i++)
         {
@@ -29,6 +31,11 @@ public class ObjectPooling : MonoBehaviour
         {
             obj = poolQueue.Dequeue();
             obj.SetActive(true);
+        }
+        else
+        {
+            obj = GameObject.Instantiate(poolPrefab);
+            obj.transform.SetParent(parentTransfrom);
         }
     }
 
