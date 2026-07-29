@@ -16,11 +16,11 @@ public class SceneLoader : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public void LoadTitleScene()
+    public void LoadStartScene()
     {
         SceneManager.LoadScene("StartScene");
     }
-    public void LoadGameScene()
+    public void LoadPlayScene()
     {
         SceneManager.LoadScene("PlayScene");
     }
