@@ -655,6 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 736cfabed6b80e647907a16df5d992d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
+  playerTransform: {fileID: 156744944}
   pool: {fileID: 1802196836}
   parentSpawnPointTransform: {fileID: 920129870}
   spawnInterval: 3

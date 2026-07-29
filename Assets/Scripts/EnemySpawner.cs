@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    [SerializeField] Transform playerTransform;
     [SerializeField] ObjectPooling pool;
     [SerializeField] Transform parentSpawnPointTransform;
     [SerializeField] float spawnInterval;
@@ -42,6 +43,7 @@ public class EnemySpawner : MonoBehaviour
         int randomCount = Random.Range(0, spawnPointsList.Count);
 
         enemy.transform.position = spawnPointsList[randomCount].position;
+        enemy.GetComponent<EnemyMove>().playerTransform = this.playerTransform;
         enemy.SetActive(true);
     }
 }
