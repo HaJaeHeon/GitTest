@@ -4,8 +4,8 @@ public class PlayerInfo : MonoBehaviour
 {
     private int player_MaxHp;
     private int player_Hp;
-    public int Hp 
-    { 
+    public int Hp
+    {
         get => player_Hp;
         private set
         {
@@ -46,7 +46,10 @@ public class PlayerInfo : MonoBehaviour
     public void LevelUp()
     {
         Level++;
-
+        //나머지 경험치 추가?
     }
-
+    public void TakeDamage(int value)
+    {
+        Hp -= value;
+    }
 }

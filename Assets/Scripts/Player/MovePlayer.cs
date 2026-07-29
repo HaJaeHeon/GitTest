@@ -8,13 +8,12 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private float playerMoveSpeed =5f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private SpriteRenderer sr;
-    [SerializeField] private Animator animator;
-
+    [SerializeField] private PlayerAnimator animator;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+        animator = GetComponent<PlayerAnimator>();
     }
 
     private void OnEnable()
@@ -45,11 +44,11 @@ public class MovePlayer : MonoBehaviour
 
         if(playerInput != Vector2.zero)
         {
-            animator.SetFloat("PlayerMoveSpeed", 1f);
+            animator.AniSetFloat("PlayerMoveSpeed", 1f);
         }
         else
         {
-            animator.SetFloat("PlayerMoveSpeed", 0f);
+            animator.AniSetFloat("PlayerMoveSpeed", 0f);
         }
     }
 
