@@ -52,5 +52,9 @@ public class UIManager : MonoBehaviour
     public void SettingPanelToggled(InputAction.CallbackContext obj)
     {
         SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+        if (SettingsPanel.activeSelf)
+            Time.timeScale = 0f;
+        else
+            Time.timeScale = 1f;
     }
 }

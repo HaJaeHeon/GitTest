@@ -28,6 +28,12 @@ public class PlayerCollision : MonoBehaviour
             playerInfo.TakeDamage(10);
             Debug.Log("EnterHit");
         }
+
+        if(collision.gameObject.CompareTag("Item"))
+        {
+            collision.GetComponent<Item>().UseItem(gameObject);
+            Destroy(collision.gameObject);
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

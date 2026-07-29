@@ -71,6 +71,11 @@ public class PlayerInfo : MonoBehaviour
         Hp -= value;
         OnChangedHp?.Invoke(Hp);
     }
+    public void Heal(float value)
+    {
+        Hp += value;
+        OnChangedHp?.Invoke(Hp);
+    }
 
     public void GetExp(float value)
     {
