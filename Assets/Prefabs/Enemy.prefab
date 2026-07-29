@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMove
   playerTransform: {fileID: 0}
-  enemyMoveSpeed: 5
+  enemyMoveSpeed: 3
   rb: {fileID: 0}
   sr: {fileID: 0}
   animator: {fileID: 0}
