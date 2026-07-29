@@ -164,8 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &4263639
@@ -272,8 +270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &5917582
@@ -380,8 +376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &12946475
@@ -488,8 +482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &53519600
@@ -596,8 +588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &67417473
@@ -704,8 +694,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &73737831
@@ -812,8 +800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &83058238
@@ -920,8 +906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &87891391
@@ -1028,8 +1012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &93637091
@@ -1136,8 +1118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &96116414
@@ -1244,8 +1224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &99082451
@@ -1307,6 +1285,42 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &114454929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114454930}
+  m_Layer: 5
+  m_Name: Fill Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &114454930
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114454929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1398439936}
+  m_Father: {fileID: 1583497536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &114957454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,8 +1366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &114957457
@@ -1415,6 +1427,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &115455810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115455811}
+  m_Layer: 0
+  m_Name: GameObject (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115455811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115455810}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.2, y: -5.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 920129870}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121170784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,8 +1503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &121170787
@@ -1568,8 +1609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &130242087
@@ -1676,8 +1715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &131513001
@@ -1784,8 +1821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &139234965
@@ -1892,8 +1927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &155285811
@@ -2050,6 +2083,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 338398216}
+  - {fileID: 920129870}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &156744945
@@ -2209,7 +2243,7 @@ Transform:
   m_GameObject: {fileID: 158479947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.69, y: 1.41, z: 0}
+  m_LocalPosition: {x: -6.54, y: 15.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2260,8 +2294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &166778819
@@ -2368,8 +2400,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &170838826
@@ -2476,8 +2506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &182191199
@@ -2584,8 +2612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &201380541
@@ -2692,8 +2718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &210163178
@@ -2800,8 +2824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &210230181
@@ -2908,8 +2930,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &221106069
@@ -3016,8 +3036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &263455439
@@ -3124,8 +3142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &263770774
@@ -3232,8 +3248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &264919500
@@ -3320,7 +3334,7 @@ Transform:
   m_GameObject: {fileID: 325815380}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.69, y: 1.24, z: 0}
+  m_LocalPosition: {x: 3.8, y: 14.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3508,8 +3522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &339166578
@@ -3616,8 +3628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &344609410
@@ -3724,8 +3734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &346600472
@@ -3832,8 +3840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &358775682
@@ -3940,8 +3946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &379234865
@@ -4048,8 +4052,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &385219662
@@ -4156,8 +4158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &399158020
@@ -4264,8 +4264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &399724169
@@ -4327,6 +4325,183 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &406111234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406111235}
+  - component: {fileID: 406111237}
+  - component: {fileID: 406111236}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &406111235
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406111234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1583497536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &406111236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406111234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5254902}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &406111237
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406111234}
+  m_CullTransparentMesh: 1
+--- !u!1 &420543764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420543768}
+  - component: {fileID: 420543767}
+  - component: {fileID: 420543766}
+  - component: {fileID: 420543765}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &420543765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420543764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &420543766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420543764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &420543767
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420543764}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &420543768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420543764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1590130828}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &421006637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4372,8 +4547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &421006640
@@ -4480,8 +4653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &433324354
@@ -4588,8 +4759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &443867450
@@ -4696,8 +4865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &444220004
@@ -4804,8 +4971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &459821139
@@ -4912,8 +5077,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &460879698
@@ -5020,8 +5183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &466634902
@@ -5083,6 +5244,97 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &527884460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 527884461}
+  - component: {fileID: 527884462}
+  m_Layer: 5
+  m_Name: ExpSlider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &527884461
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527884460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 572417905}
+  - {fileID: 1884007206}
+  - {fileID: 564367066}
+  - {fileID: 787451162}
+  m_Father: {fileID: 1590130828}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 500, y: 60}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &527884462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527884460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 906953763}
+  m_FillRect: {fileID: 906953762}
+  m_HandleRect: {fileID: 0}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 1
+  m_WholeNumbers: 0
+  m_Value: 1
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &546236015
 GameObject:
   m_ObjectHideFlags: 0
@@ -5109,7 +5361,7 @@ Transform:
   m_GameObject: {fileID: 546236015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5296,8 +5548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 0
-  cellCount: 0
   mapSize: 0
   playerTransform: {fileID: 0}
 --- !u!1 &551773845
@@ -5345,8 +5595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &551773848
@@ -5453,8 +5701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &552293641
@@ -5561,8 +5807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &552799969
@@ -5669,8 +5913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &556303427
@@ -5732,6 +5974,41 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &564367065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564367066}
+  m_Layer: 5
+  m_Name: Handle Slide Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &564367066
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564367065}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 527884461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &572360854
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,8 +6054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &572360857
@@ -5840,6 +6115,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &572417904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572417905}
+  - component: {fileID: 572417907}
+  - component: {fileID: 572417906}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &572417905
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572417904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 527884461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &572417906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572417904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5254902}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &572417907
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572417904}
+  m_CullTransparentMesh: 1
 --- !u!1 &583332066
 GameObject:
   m_ObjectHideFlags: 0
@@ -5885,8 +6235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &583332069
@@ -5993,8 +6341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &594859285
@@ -6101,8 +6447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &597688168
@@ -6209,8 +6553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &603506703
@@ -6317,8 +6659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &609566622
@@ -6380,6 +6720,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &615405036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615405037}
+  m_Layer: 0
+  m_Name: GameObject (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615405037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615405036}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.93, y: -5.98, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 920129870}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &637546222
 GameObject:
   m_ObjectHideFlags: 0
@@ -6425,8 +6796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &637546225
@@ -6533,8 +6902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &641924003
@@ -6641,8 +7008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &642577311
@@ -6749,8 +7114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &643318873
@@ -6857,8 +7220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &683480987
@@ -6965,8 +7326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &690735201
@@ -7073,8 +7432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &702458456
@@ -7181,8 +7538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &758150876
@@ -7289,8 +7644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &760532646
@@ -7397,8 +7750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &764487755
@@ -7505,8 +7856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &768753768
@@ -7613,8 +7962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &774675059
@@ -7676,6 +8023,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &787451161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787451162}
+  - component: {fileID: 787451164}
+  - component: {fileID: 787451163}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &787451162
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787451161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 527884461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &787451163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787451161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: EXP~~
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &787451164
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787451161}
+  m_CullTransparentMesh: 1
 --- !u!1 &796904548
 GameObject:
   m_ObjectHideFlags: 0
@@ -7721,8 +8205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &796904551
@@ -7829,8 +8311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &802550040
@@ -7937,8 +8417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &816957954
@@ -8045,8 +8523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &819119643
@@ -8153,8 +8629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &819299928
@@ -8261,8 +8735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &824121530
@@ -8369,8 +8841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &829663307
@@ -8477,8 +8947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &831637267
@@ -8585,8 +9053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &859625373
@@ -8693,8 +9159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &859987499
@@ -8801,8 +9265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &883315054
@@ -8909,8 +9371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &889209680
@@ -9017,8 +9477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &904631507
@@ -9080,6 +9538,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &906953761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906953762}
+  - component: {fileID: 906953764}
+  - component: {fileID: 906953763}
+  m_Layer: 5
+  m_Name: Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &906953762
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906953761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1884007206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &906953763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906953761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.36486077, g: 0.8207547, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &906953764
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906953761}
+  m_CullTransparentMesh: 1
 --- !u!1 &920129869
 GameObject:
   m_ObjectHideFlags: 0
@@ -9105,7 +9638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920129869}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.54121, y: -5.03491, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9114,7 +9647,11 @@ Transform:
   - {fileID: 325815381}
   - {fileID: 1787118586}
   - {fileID: 1883896716}
-  m_Father: {fileID: 0}
+  - {fileID: 1770783096}
+  - {fileID: 1738914895}
+  - {fileID: 615405037}
+  - {fileID: 115455811}
+  m_Father: {fileID: 156744944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &920129871
 MonoBehaviour:
@@ -9173,8 +9710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &952760112
@@ -9281,8 +9816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &980785203
@@ -9389,8 +9922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &996944353
@@ -9497,8 +10028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1000888240
@@ -9605,8 +10134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1018105608
@@ -9713,8 +10240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1045837791
@@ -9821,8 +10346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1046515200
@@ -9929,8 +10452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1048240062
@@ -10037,8 +10558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1054770814
@@ -10145,8 +10664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1055990675
@@ -10253,8 +10770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1072419199
@@ -10361,8 +10876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1094390729
@@ -10469,8 +10982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1101981102
@@ -10577,8 +11088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1141785712
@@ -10685,8 +11194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1158280325
@@ -10793,8 +11300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1167306786
@@ -10901,8 +11406,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1174031890
@@ -11009,8 +11512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1177888339
@@ -11117,8 +11618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1185884104
@@ -11225,8 +11724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1188334601
@@ -11288,6 +11785,85 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1217636812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217636815}
+  - component: {fileID: 1217636814}
+  - component: {fileID: 1217636813}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1217636813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217636812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1217636814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217636812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1217636815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217636812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1219587158
 GameObject:
   m_ObjectHideFlags: 0
@@ -11333,8 +11909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1219587161
@@ -11441,8 +12015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1258834525
@@ -11549,8 +12121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1261299315
@@ -11657,8 +12227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1287654329
@@ -11765,8 +12333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1327538583
@@ -11873,8 +12439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1330371997
@@ -11981,8 +12545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1331475356
@@ -12089,8 +12651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1359806380
@@ -12197,8 +12757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1373430057
@@ -12305,8 +12863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1374121299
@@ -12368,6 +12924,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1398439935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398439936}
+  - component: {fileID: 1398439938}
+  - component: {fileID: 1398439937}
+  m_Layer: 5
+  m_Name: Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1398439936
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398439935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 114454930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1398439937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398439935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1398439938
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398439935}
+  m_CullTransparentMesh: 1
 --- !u!1 &1401008323
 GameObject:
   m_ObjectHideFlags: 0
@@ -12413,8 +13044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1401008326
@@ -12521,8 +13150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1413414531
@@ -12629,8 +13256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1415141648
@@ -12737,8 +13362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1417973576
@@ -12845,8 +13468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1434228735
@@ -12953,8 +13574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1437128291
@@ -13061,8 +13680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1453779020
@@ -13169,8 +13786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1459500098
@@ -13277,8 +13892,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1475862461
@@ -13385,8 +13998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1476501538
@@ -13493,8 +14104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1492859780
@@ -13601,8 +14210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1496147266
@@ -13709,8 +14316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1497751764
@@ -13817,8 +14422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1500748417
@@ -13925,8 +14528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1506730123
@@ -14033,8 +14634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1530505465
@@ -14141,8 +14740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1531282971
@@ -14249,8 +14846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1531700862
@@ -14357,8 +14952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1534852860
@@ -14465,8 +15058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1544941028
@@ -14573,8 +15164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1558629358
@@ -14681,8 +15270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1560548052
@@ -14789,8 +15376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1564061119
@@ -14897,8 +15482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1577945388
@@ -14960,6 +15543,174 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1583497535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583497536}
+  - component: {fileID: 1583497537}
+  m_Layer: 5
+  m_Name: HpSlider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1583497536
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583497535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 406111235}
+  - {fileID: 114454930}
+  - {fileID: 1835364030}
+  - {fileID: 1664592485}
+  m_Father: {fileID: 1590130828}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 10, y: 40}
+  m_SizeDelta: {x: 500, y: 60}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1583497537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583497535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1398439937}
+  m_FillRect: {fileID: 1398439936}
+  m_HandleRect: {fileID: 0}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 1
+  m_WholeNumbers: 0
+  m_Value: 1
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1590130827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590130828}
+  - component: {fileID: 1590130830}
+  - component: {fileID: 1590130829}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1590130828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590130827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1583497536}
+  - {fileID: 527884461}
+  m_Father: {fileID: 420543768}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1590130829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590130827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1590130830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590130827}
+  m_CullTransparentMesh: 1
 --- !u!1 &1597143792
 GameObject:
   m_ObjectHideFlags: 0
@@ -15005,8 +15756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1597143795
@@ -15113,8 +15862,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1603425513
@@ -15221,8 +15968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1607424859
@@ -15329,8 +16074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1608506576
@@ -15437,8 +16180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1643249962
@@ -15545,8 +16286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1654345907
@@ -15608,6 +16347,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1664592484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1664592485}
+  - component: {fileID: 1664592487}
+  - component: {fileID: 1664592486}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1664592485
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664592484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1583497536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1664592486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664592484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: HP~~
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1664592487
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664592484}
+  m_CullTransparentMesh: 1
 --- !u!1 &1676489830
 GameObject:
   m_ObjectHideFlags: 0
@@ -15653,8 +16529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1676489833
@@ -15761,8 +16635,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1702537177
@@ -15869,8 +16741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1703353563
@@ -15977,8 +16847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1703368610
@@ -16085,8 +16953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1704018007
@@ -16193,8 +17059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1705016159
@@ -16301,8 +17165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1707749520
@@ -16409,8 +17271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1718733438
@@ -16472,6 +17332,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1738914894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738914895}
+  m_Layer: 0
+  m_Name: GameObject (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738914895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738914894}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.44, y: -6.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 920129870}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1740660156
 GameObject:
   m_ObjectHideFlags: 0
@@ -16517,8 +17408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1740660159
@@ -16625,8 +17514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1758418447
@@ -16733,8 +17620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1765338683
@@ -16841,8 +17726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1769055018
@@ -16904,6 +17787,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1770783095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770783096}
+  m_Layer: 0
+  m_Name: GameObject (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1770783096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770783095}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.65, y: 5.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 920129870}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1785039177
 GameObject:
   m_ObjectHideFlags: 0
@@ -16949,8 +17863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1785039180
@@ -17037,7 +17949,7 @@ Transform:
   m_GameObject: {fileID: 1787118585}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 7.37, z: 0}
+  m_LocalPosition: {x: 15.33, y: 14.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17088,8 +18000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1798638349
@@ -17262,8 +18172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1811440150
@@ -17325,6 +18233,41 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1835364029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835364030}
+  m_Layer: 5
+  m_Name: Handle Slide Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1835364030
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835364029}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1583497536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1844336732
 GameObject:
   m_ObjectHideFlags: 0
@@ -17370,8 +18313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1844336735
@@ -17478,8 +18419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1865733969
@@ -17566,12 +18505,48 @@ Transform:
   m_GameObject: {fileID: 1883896715}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.3, y: 8.03, z: 0}
+  m_LocalPosition: {x: -7.07, y: 4.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 920129870}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1884007205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884007206}
+  m_Layer: 5
+  m_Name: Fill Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1884007206
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884007205}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 906953762}
+  m_Father: {fileID: 527884461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1887852025
 GameObject:
   m_ObjectHideFlags: 0
@@ -17617,8 +18592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1887852028
@@ -17725,8 +18698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1900299203
@@ -17833,8 +18804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1914474015
@@ -17941,8 +18910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1931035806
@@ -18049,8 +19016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &1956775805
@@ -18157,8 +19122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2014691118
@@ -18265,8 +19228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2025834273
@@ -18373,8 +19334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2044037638
@@ -18481,8 +19440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2061759174
@@ -18589,8 +19546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2081333832
@@ -18697,8 +19652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2089328024
@@ -18805,8 +19758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2108561709
@@ -18913,8 +19864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2113412661
@@ -19021,8 +19970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2121084178
@@ -19129,8 +20076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  cellSize: 2.15
-  cellCount: 169
   mapSize: 27.95
   playerTransform: {fileID: 156744944}
 --- !u!212 &2123884124
@@ -19197,6 +20142,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 156744944}
-  - {fileID: 920129870}
   - {fileID: 1802196835}
   - {fileID: 546236016}
+  - {fileID: 420543768}
+  - {fileID: 1217636815}

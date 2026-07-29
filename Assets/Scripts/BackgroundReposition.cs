@@ -5,8 +5,6 @@ using UnityEngine.UIElements;
 
 public class BackgroundReposition : MonoBehaviour
 {
-    public float cellSize;
-    public int cellCount;
     public float mapSize;
 
     [SerializeField] private Transform playerTransform;
