@@ -32,11 +32,13 @@ public class MovePlayer : MonoBehaviour
         PlayerFacing(playerInput);
     }
 
+    //input system을 이용해 value 값 받아오기
     public void OnMove(InputValue value)
     {
         playerInput = value.Get<Vector2>();
     }
 
+    //input value 받아서 rigidbody2D를 이용한 이동 및 이동 애니메이션
     private void PlayerMove()
     {
         rb.MovePosition(transform.position += (Vector3)playerInput * playerMoveSpeed * Time.deltaTime);
@@ -50,6 +52,8 @@ public class MovePlayer : MonoBehaviour
             animator.SetFloat("PlayerMoveSpeed", 0f);
         }
     }
+
+    //sprite가 플레이어 이동 방향으로 바라보게끔
     public void PlayerFacing(Vector2 value)
     {
         if(value.x < 0)
