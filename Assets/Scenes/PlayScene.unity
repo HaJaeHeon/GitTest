@@ -2178,6 +2178,11 @@ GameObject:
   - component: {fileID: 156744949}
   - component: {fileID: 156744952}
   - component: {fileID: 156744951}
+  - component: {fileID: 156744957}
+  - component: {fileID: 156744956}
+  - component: {fileID: 156744955}
+  - component: {fileID: 156744954}
+  - component: {fileID: 156744953}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2438,6 +2443,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
   currentTimer: 0
   invincibleTime: 1
+--- !u!114 &156744953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156744942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57393098111690d4a951cd5f2b15d3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkill_Aura
+  skillData: {fileID: 11400000, guid: bd565e7b8aaa77a47b728da18786ba12, type: 2}
+  skillPrefab: {fileID: 0}
+  isActive: 0
+--- !u!114 &156744954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156744942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc31e5e31f841f48a3cd8168403bb53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkill_FireBlast
+  skillData: {fileID: 11400000, guid: ba466a35101422a478ce8dd87bfc345b, type: 2}
+  skillPrefab: {fileID: 0}
+  skillTimer: 0
+--- !u!114 &156744955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156744942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1818c23c4b5c0a14a935886fa72c4f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkill_MagicMissle
+  skillData: {fileID: 11400000, guid: c2c8382ab17f66442a76b2cc6b2d3078, type: 2}
+  skillPrefab: {fileID: 0}
+  skillTimer: 0
+--- !u!114 &156744956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156744942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4171b820b717b924eb6290a0fcb01c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkill_Saw
+  skillData: {fileID: 11400000, guid: 0d070f1691f9a53409731de5536af7e8, type: 2}
+  skillPrefab: {fileID: 0}
+  skillTimer: 0
+--- !u!114 &156744957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156744942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a04d1f2253e194997b1194e6eaf4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkill_SpikeBall
+  skillData: {fileID: 11400000, guid: bc15f944fa96fc14285a08fb24b507f0, type: 2}
+  skillPrefab: {fileID: 0}
+  skillTimer: 0
 --- !u!1 &158479947
 GameObject:
   m_ObjectHideFlags: 0
