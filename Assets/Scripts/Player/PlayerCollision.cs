@@ -4,7 +4,7 @@ public class PlayerCollision : MonoBehaviour
 {
     PlayerAnimator animator;
     [SerializeField] private float currentTimer;
-    [SerializeField] private float ImmotalTime = 1f;
+    [SerializeField] private float invincibleTime = 1f;
 
     private void Awake()
     {
@@ -19,18 +19,20 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && currentTimer > ImmotalTime)
+        if (collision.gameObject.CompareTag("Enemy") && currentTimer > invincibleTime)
         {
             currentTimer = 0f;
             animator.AniTrigger("Hit");
+            Debug.Log("EnterHit");
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && currentTimer > ImmotalTime)
+        if (collision.gameObject.CompareTag("Enemy") && currentTimer > invincibleTime)
         {
             currentTimer = 0f;
             animator.AniTrigger("Hit");
+            Debug.Log("StayHit");
         }
     }
 }
