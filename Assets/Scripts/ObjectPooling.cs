@@ -20,10 +20,11 @@ public class ObjectPooling : MonoBehaviour
             GameObject obj = GameObject.Instantiate(poolPrefab);
             obj.transform.SetParent(parentObject.transform);
             poolQueue.Enqueue(obj);
+            obj.SetActive(false);
         }
     }
 
-    public void Get()
+    public GameObject Get()
     {
         GameObject obj;
 
@@ -37,6 +38,8 @@ public class ObjectPooling : MonoBehaviour
             obj = GameObject.Instantiate(poolPrefab);
             obj.transform.SetParent(parentTransfrom);
         }
+
+        return obj;
     }
 
     public void Return(GameObject obj)
