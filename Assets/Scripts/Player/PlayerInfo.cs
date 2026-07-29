@@ -1,10 +1,17 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInfo : MonoBehaviour
 {
-    private int player_MaxHp;
-    private int player_Hp;
-    public int Hp
+    [SerializeField] private float player_MaxHp;
+    [SerializeField] private float player_Hp;
+    public event Action<float> OnChangedHp;
+    public event Action<float> OnChangedExp;
+    [SerializeField] private float player_Level;
+    [SerializeField] private InputActionReference getExpAction;
+    
+    public float Hp
     {
         get => player_Hp;
         private set
@@ -12,44 +19,67 @@ public class PlayerInfo : MonoBehaviour
             player_Hp = Mathf.Clamp(value, 0, player_MaxHp);
         }
     }
-    private int player_MaxExp;
-    private int player_Exp;
-    public int Exp
+    [SerializeField] private float player_MaxExp;
+    [SerializeField] private float player_Exp;
+    public float Exp
     {
         get => player_Exp;
         private set
         {
-            player_Exp = Mathf.Clamp(value, 0, player_MaxExp);
+            player_Exp = value;
+
+            if(player_Exp >= player_MaxExp)
+            {
+                player_Exp -= player_MaxExp;
+                player_Level++;
+            }
         }
     }
 
-    private int player_Level;
-    public int Level
+
+
+
+    private void OnEnable()
     {
-        get => player_Level;
-        set
-        {
-            player_Level = Mathf.Clamp(value, 1, 999);
-        }
+        getExpAction.action.performed += TestGetExp;
     }
 
-    public int GetHp()
+    private void Start()
+    {
+        Hp = 100;
+        player_Hp = 100;
+        TakeDamage(0);
+        GetExp(0);
+    }
+
+    public float GetHp()
     {
         return Hp;
     }
 
-    public int GetExp()
+    public float GetExp()
     {
         return Exp;
     }
 
-    public void LevelUp()
+    public void TakeDamage(float value)
     {
-        Level++;
-        //나머지 경험치 추가?
-    }
-    public void TakeDamage(int value)
-    {
+        if(Hp <= 0)
+        {
+            return;
+        }
         Hp -= value;
+        OnChangedHp?.Invoke(Hp);
+    }
+
+    public void GetExp(float value)
+    {
+        Exp += value;
+        OnChangedExp?.Invoke(Exp);
+    }
+
+    public void TestGetExp(InputAction.CallbackContext obj)
+    {
+        GetExp(11);
     }
 }

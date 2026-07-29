@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    PlayerInfo playerInfo;
     PlayerAnimator animator;
     [SerializeField] private float currentTimer;
     [SerializeField] private float invincibleTime = 1f;
 
     private void Awake()
     {
+        playerInfo = GetComponent<PlayerInfo>();
         animator = GetComponent<PlayerAnimator>();
         currentTimer = 0f;
     }
@@ -23,6 +25,7 @@ public class PlayerCollision : MonoBehaviour
         {
             currentTimer = 0f;
             animator.AniTrigger("Hit");
+            playerInfo.TakeDamage(10);
             Debug.Log("EnterHit");
         }
     }
@@ -32,6 +35,7 @@ public class PlayerCollision : MonoBehaviour
         {
             currentTimer = 0f;
             animator.AniTrigger("Hit");
+            playerInfo.TakeDamage(10);
             Debug.Log("StayHit");
         }
     }

@@ -16,10 +16,10 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "New action",
+                    "name": "GetExp",
                     "type": "Value",
                     "id": "94401b55-31bf-4a1d-99fb-d4b65f0cbd0f",
-                    "expectedControlType": "",
+                    "expectedControlType": "Integer",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -29,11 +29,11 @@
                 {
                     "name": "",
                     "id": "5af03402-8519-42da-8dc9-66be8f54183d",
-                    "path": "",
+                    "path": "<Keyboard>/l",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "GetExp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

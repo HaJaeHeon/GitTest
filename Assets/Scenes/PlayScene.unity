@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 4263636}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -7.3, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,8 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &4263639
 SpriteRenderer:
   serializedVersion: 2
@@ -252,7 +255,7 @@ Transform:
   m_GameObject: {fileID: 5917579}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -270,8 +273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &5917582
 SpriteRenderer:
   serializedVersion: 2
@@ -358,7 +364,7 @@ Transform:
   m_GameObject: {fileID: 12946472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 7.7, z: 0}
+  m_LocalPosition: {x: -9.4, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -376,8 +382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &12946475
 SpriteRenderer:
   serializedVersion: 2
@@ -464,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 53519597}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 9.85, z: 0}
+  m_LocalPosition: {x: -9.4, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -482,8 +491,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &53519600
 SpriteRenderer:
   serializedVersion: 2
@@ -570,7 +582,7 @@ Transform:
   m_GameObject: {fileID: 67417470}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -9.4, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -588,8 +600,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &67417473
 SpriteRenderer:
   serializedVersion: 2
@@ -676,7 +691,7 @@ Transform:
   m_GameObject: {fileID: 73737828}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 12, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -694,8 +709,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &73737831
 SpriteRenderer:
   serializedVersion: 2
@@ -782,7 +800,7 @@ Transform:
   m_GameObject: {fileID: 83058235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -9.4, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -800,8 +818,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &83058238
 SpriteRenderer:
   serializedVersion: 2
@@ -888,7 +909,7 @@ Transform:
   m_GameObject: {fileID: 87891388}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -906,8 +927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &87891391
 SpriteRenderer:
   serializedVersion: 2
@@ -994,7 +1018,7 @@ Transform:
   m_GameObject: {fileID: 93637088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 12, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1012,8 +1036,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &93637091
 SpriteRenderer:
   serializedVersion: 2
@@ -1100,7 +1127,7 @@ Transform:
   m_GameObject: {fileID: 96116411}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -7.3, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1118,8 +1145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &96116414
 SpriteRenderer:
   serializedVersion: 2
@@ -1206,7 +1236,7 @@ Transform:
   m_GameObject: {fileID: 99082448}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1224,8 +1254,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &99082451
 SpriteRenderer:
   serializedVersion: 2
@@ -1348,7 +1381,7 @@ Transform:
   m_GameObject: {fileID: 114957454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1366,8 +1399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &114957457
 SpriteRenderer:
   serializedVersion: 2
@@ -1485,7 +1521,7 @@ Transform:
   m_GameObject: {fileID: 121170784}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1503,8 +1539,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &121170787
 SpriteRenderer:
   serializedVersion: 2
@@ -1591,7 +1630,7 @@ Transform:
   m_GameObject: {fileID: 130242084}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 7.7, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1609,8 +1648,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &130242087
 SpriteRenderer:
   serializedVersion: 2
@@ -1715,8 +1757,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &131513001
 SpriteRenderer:
   serializedVersion: 2
@@ -1803,7 +1848,7 @@ Transform:
   m_GameObject: {fileID: 139234962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -7.3, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1821,8 +1866,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &139234965
 SpriteRenderer:
   serializedVersion: 2
@@ -1909,7 +1957,7 @@ Transform:
   m_GameObject: {fileID: 155285808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 12, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1927,8 +1975,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &155285811
 SpriteRenderer:
   serializedVersion: 2
@@ -2246,6 +2297,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8894121bb70ea6a4086c9c2b732b7f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInfo
+  player_MaxHp: 100
+  player_Hp: 100
+  player_Level: 1
+  getExpAction: {fileID: -2599459375657966651, guid: e1fe4ca61c8761146a82deb4333b8ce4, type: 3}
+  player_MaxExp: 100
+  player_Exp: 0
 --- !u!114 &156744952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2259,7 +2316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
   currentTimer: 0
-  ImmotalTime: 1
+  invincibleTime: 1
 --- !u!1 &158479947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,7 +2375,7 @@ Transform:
   m_GameObject: {fileID: 166778816}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -9.5, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2336,8 +2393,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &166778819
 SpriteRenderer:
   serializedVersion: 2
@@ -2424,7 +2484,7 @@ Transform:
   m_GameObject: {fileID: 170838823}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 1.25, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2442,8 +2502,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &170838826
 SpriteRenderer:
   serializedVersion: 2
@@ -2530,7 +2593,7 @@ Transform:
   m_GameObject: {fileID: 182191196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2548,8 +2611,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &182191199
 SpriteRenderer:
   serializedVersion: 2
@@ -2636,7 +2702,7 @@ Transform:
   m_GameObject: {fileID: 201380538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -9.5, z: 0}
+  m_LocalPosition: {x: -11.5, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2654,8 +2720,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &201380541
 SpriteRenderer:
   serializedVersion: 2
@@ -2742,7 +2811,7 @@ Transform:
   m_GameObject: {fileID: 210163175}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -1, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2760,8 +2829,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &210163178
 SpriteRenderer:
   serializedVersion: 2
@@ -2848,7 +2920,7 @@ Transform:
   m_GameObject: {fileID: 210230178}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 12, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2866,8 +2938,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &210230181
 SpriteRenderer:
   serializedVersion: 2
@@ -2954,7 +3029,7 @@ Transform:
   m_GameObject: {fileID: 221106066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -11.5, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2972,8 +3047,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &221106069
 SpriteRenderer:
   serializedVersion: 2
@@ -3060,7 +3138,7 @@ Transform:
   m_GameObject: {fileID: 263455436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -9.5, z: 0}
+  m_LocalPosition: {x: -7.3, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3078,8 +3156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &263455439
 SpriteRenderer:
   serializedVersion: 2
@@ -3166,7 +3247,7 @@ Transform:
   m_GameObject: {fileID: 263770771}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -7.3, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3184,8 +3265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &263770774
 SpriteRenderer:
   serializedVersion: 2
@@ -3272,7 +3356,7 @@ Transform:
   m_GameObject: {fileID: 264919497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 1.25, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3290,8 +3374,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &264919500
 SpriteRenderer:
   serializedVersion: 2
@@ -3546,7 +3633,7 @@ Transform:
   m_GameObject: {fileID: 339166575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3564,8 +3651,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &339166578
 SpriteRenderer:
   serializedVersion: 2
@@ -3652,7 +3742,7 @@ Transform:
   m_GameObject: {fileID: 344609407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3670,8 +3760,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &344609410
 SpriteRenderer:
   serializedVersion: 2
@@ -3758,7 +3851,7 @@ Transform:
   m_GameObject: {fileID: 346600469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3776,8 +3869,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &346600472
 SpriteRenderer:
   serializedVersion: 2
@@ -3864,7 +3960,7 @@ Transform:
   m_GameObject: {fileID: 358775679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 9.85, z: 0}
+  m_LocalPosition: {x: 9.5, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3882,8 +3978,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &358775682
 SpriteRenderer:
   serializedVersion: 2
@@ -3970,7 +4069,7 @@ Transform:
   m_GameObject: {fileID: 379234862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3988,8 +4087,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &379234865
 SpriteRenderer:
   serializedVersion: 2
@@ -4076,7 +4178,7 @@ Transform:
   m_GameObject: {fileID: 385219659}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 7.7, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4094,8 +4196,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &385219662
 SpriteRenderer:
   serializedVersion: 2
@@ -4182,7 +4287,7 @@ Transform:
   m_GameObject: {fileID: 399158017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -1, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4200,8 +4305,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &399158020
 SpriteRenderer:
   serializedVersion: 2
@@ -4288,7 +4396,7 @@ Transform:
   m_GameObject: {fileID: 399724166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -9.4, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4306,8 +4414,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &399724169
 SpriteRenderer:
   serializedVersion: 2
@@ -4490,12 +4601,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 30
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -4571,7 +4682,7 @@ Transform:
   m_GameObject: {fileID: 421006637}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4589,8 +4700,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &421006640
 SpriteRenderer:
   serializedVersion: 2
@@ -4677,7 +4791,7 @@ Transform:
   m_GameObject: {fileID: 433324351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4695,8 +4809,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &433324354
 SpriteRenderer:
   serializedVersion: 2
@@ -4783,7 +4900,7 @@ Transform:
   m_GameObject: {fileID: 443867447}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4801,8 +4918,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &443867450
 SpriteRenderer:
   serializedVersion: 2
@@ -4889,7 +5009,7 @@ Transform:
   m_GameObject: {fileID: 444220001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 1.25, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4907,8 +5027,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &444220004
 SpriteRenderer:
   serializedVersion: 2
@@ -4995,7 +5118,7 @@ Transform:
   m_GameObject: {fileID: 459821136}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5013,8 +5136,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &459821139
 SpriteRenderer:
   serializedVersion: 2
@@ -5101,7 +5227,7 @@ Transform:
   m_GameObject: {fileID: 460879695}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 9.5, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5119,8 +5245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &460879698
 SpriteRenderer:
   serializedVersion: 2
@@ -5207,7 +5336,7 @@ Transform:
   m_GameObject: {fileID: 466634899}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 9.5, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5225,8 +5354,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &466634902
 SpriteRenderer:
   serializedVersion: 2
@@ -5371,9 +5503,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5592,6 +5724,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
   mapSize: 0
   playerTransform: {fileID: 0}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!1 &551773845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5619,7 +5754,7 @@ Transform:
   m_GameObject: {fileID: 551773845}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -9.4, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5637,8 +5772,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &551773848
 SpriteRenderer:
   serializedVersion: 2
@@ -5725,7 +5863,7 @@ Transform:
   m_GameObject: {fileID: 552293638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5743,8 +5881,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &552293641
 SpriteRenderer:
   serializedVersion: 2
@@ -5831,7 +5972,7 @@ Transform:
   m_GameObject: {fileID: 552799966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -11.5, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5849,8 +5990,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &552799969
 SpriteRenderer:
   serializedVersion: 2
@@ -5937,7 +6081,7 @@ Transform:
   m_GameObject: {fileID: 556303424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -9.4, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5955,8 +6099,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &556303427
 SpriteRenderer:
   serializedVersion: 2
@@ -6078,7 +6225,7 @@ Transform:
   m_GameObject: {fileID: 572360854}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6096,8 +6243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &572360857
 SpriteRenderer:
   serializedVersion: 2
@@ -6259,7 +6409,7 @@ Transform:
   m_GameObject: {fileID: 583332066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 12, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6277,8 +6427,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &583332069
 SpriteRenderer:
   serializedVersion: 2
@@ -6365,7 +6518,7 @@ Transform:
   m_GameObject: {fileID: 594859282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6383,8 +6536,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &594859285
 SpriteRenderer:
   serializedVersion: 2
@@ -6471,7 +6627,7 @@ Transform:
   m_GameObject: {fileID: 597688165}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 7.7, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6489,8 +6645,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &597688168
 SpriteRenderer:
   serializedVersion: 2
@@ -6577,7 +6736,7 @@ Transform:
   m_GameObject: {fileID: 603506700}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6595,8 +6754,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &603506703
 SpriteRenderer:
   serializedVersion: 2
@@ -6683,7 +6845,7 @@ Transform:
   m_GameObject: {fileID: 609566619}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 12, z: 0}
+  m_LocalPosition: {x: 9.5, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6701,8 +6863,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &609566622
 SpriteRenderer:
   serializedVersion: 2
@@ -6820,7 +6985,7 @@ Transform:
   m_GameObject: {fileID: 637546222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 9.85, z: 0}
+  m_LocalPosition: {x: -7.3, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6838,8 +7003,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &637546225
 SpriteRenderer:
   serializedVersion: 2
@@ -6926,7 +7094,7 @@ Transform:
   m_GameObject: {fileID: 641924000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -1, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6944,8 +7112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &641924003
 SpriteRenderer:
   serializedVersion: 2
@@ -7032,7 +7203,7 @@ Transform:
   m_GameObject: {fileID: 642577308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7050,8 +7221,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &642577311
 SpriteRenderer:
   serializedVersion: 2
@@ -7138,7 +7312,7 @@ Transform:
   m_GameObject: {fileID: 643318870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -9.5, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7156,8 +7330,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &643318873
 SpriteRenderer:
   serializedVersion: 2
@@ -7244,7 +7421,7 @@ Transform:
   m_GameObject: {fileID: 683480984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -7.3, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7262,8 +7439,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &683480987
 SpriteRenderer:
   serializedVersion: 2
@@ -7350,7 +7530,7 @@ Transform:
   m_GameObject: {fileID: 690735198}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7368,8 +7548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &690735201
 SpriteRenderer:
   serializedVersion: 2
@@ -7456,7 +7639,7 @@ Transform:
   m_GameObject: {fileID: 702458453}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7474,8 +7657,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &702458456
 SpriteRenderer:
   serializedVersion: 2
@@ -7562,7 +7748,7 @@ Transform:
   m_GameObject: {fileID: 758150873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 1.25, z: 0}
+  m_LocalPosition: {x: -9.4, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7580,8 +7766,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &758150876
 SpriteRenderer:
   serializedVersion: 2
@@ -7668,7 +7857,7 @@ Transform:
   m_GameObject: {fileID: 760532643}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 9.85, z: 0}
+  m_LocalPosition: {x: -11.5, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7686,8 +7875,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &760532646
 SpriteRenderer:
   serializedVersion: 2
@@ -7774,7 +7966,7 @@ Transform:
   m_GameObject: {fileID: 764487752}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7792,8 +7984,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &764487755
 SpriteRenderer:
   serializedVersion: 2
@@ -7880,7 +8075,7 @@ Transform:
   m_GameObject: {fileID: 768753765}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 9.5, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7898,8 +8093,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &768753768
 SpriteRenderer:
   serializedVersion: 2
@@ -7986,7 +8184,7 @@ Transform:
   m_GameObject: {fileID: 774675056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -9.5, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8004,8 +8202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &774675059
 SpriteRenderer:
   serializedVersion: 2
@@ -8229,7 +8430,7 @@ Transform:
   m_GameObject: {fileID: 796904548}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 12, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8247,8 +8448,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &796904551
 SpriteRenderer:
   serializedVersion: 2
@@ -8335,7 +8539,7 @@ Transform:
   m_GameObject: {fileID: 802550037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 9.85, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8353,8 +8557,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &802550040
 SpriteRenderer:
   serializedVersion: 2
@@ -8441,7 +8648,7 @@ Transform:
   m_GameObject: {fileID: 816957951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 7.7, z: 0}
+  m_LocalPosition: {x: -7.3, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8459,8 +8666,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &816957954
 SpriteRenderer:
   serializedVersion: 2
@@ -8547,7 +8757,7 @@ Transform:
   m_GameObject: {fileID: 819119640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -1, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8565,8 +8775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &819119643
 SpriteRenderer:
   serializedVersion: 2
@@ -8653,7 +8866,7 @@ Transform:
   m_GameObject: {fileID: 819299925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8671,8 +8884,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &819299928
 SpriteRenderer:
   serializedVersion: 2
@@ -8759,7 +8975,7 @@ Transform:
   m_GameObject: {fileID: 824121527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -9.5, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8777,8 +8993,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &824121530
 SpriteRenderer:
   serializedVersion: 2
@@ -8865,7 +9084,7 @@ Transform:
   m_GameObject: {fileID: 829663304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 9.5, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8883,8 +9102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &829663307
 SpriteRenderer:
   serializedVersion: 2
@@ -8971,7 +9193,7 @@ Transform:
   m_GameObject: {fileID: 831637264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8989,8 +9211,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &831637267
 SpriteRenderer:
   serializedVersion: 2
@@ -9077,7 +9302,7 @@ Transform:
   m_GameObject: {fileID: 859625370}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9095,8 +9320,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &859625373
 SpriteRenderer:
   serializedVersion: 2
@@ -9183,7 +9411,7 @@ Transform:
   m_GameObject: {fileID: 859987496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 9.85, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9201,8 +9429,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &859987499
 SpriteRenderer:
   serializedVersion: 2
@@ -9289,7 +9520,7 @@ Transform:
   m_GameObject: {fileID: 883315051}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 1.25, z: 0}
+  m_LocalPosition: {x: 9.5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9307,8 +9538,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &883315054
 SpriteRenderer:
   serializedVersion: 2
@@ -9395,7 +9629,7 @@ Transform:
   m_GameObject: {fileID: 889209677}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 1.25, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9413,8 +9647,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &889209680
 SpriteRenderer:
   serializedVersion: 2
@@ -9501,7 +9738,7 @@ Transform:
   m_GameObject: {fileID: 904631504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9519,8 +9756,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &904631507
 SpriteRenderer:
   serializedVersion: 2
@@ -9734,7 +9974,7 @@ Transform:
   m_GameObject: {fileID: 952760109}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 7.7, z: 0}
+  m_LocalPosition: {x: 9.5, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9752,8 +9992,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &952760112
 SpriteRenderer:
   serializedVersion: 2
@@ -9840,7 +10083,7 @@ Transform:
   m_GameObject: {fileID: 980785200}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9858,8 +10101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &980785203
 SpriteRenderer:
   serializedVersion: 2
@@ -9946,7 +10192,7 @@ Transform:
   m_GameObject: {fileID: 996944350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9964,8 +10210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &996944353
 SpriteRenderer:
   serializedVersion: 2
@@ -10052,7 +10301,7 @@ Transform:
   m_GameObject: {fileID: 1000888237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10070,8 +10319,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1000888240
 SpriteRenderer:
   serializedVersion: 2
@@ -10158,7 +10410,7 @@ Transform:
   m_GameObject: {fileID: 1018105605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -11.5, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10176,8 +10428,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1018105608
 SpriteRenderer:
   serializedVersion: 2
@@ -10264,7 +10519,7 @@ Transform:
   m_GameObject: {fileID: 1045837788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10282,8 +10537,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1045837791
 SpriteRenderer:
   serializedVersion: 2
@@ -10370,7 +10628,7 @@ Transform:
   m_GameObject: {fileID: 1046515197}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -7.3, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10388,8 +10646,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1046515200
 SpriteRenderer:
   serializedVersion: 2
@@ -10476,7 +10737,7 @@ Transform:
   m_GameObject: {fileID: 1048240059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 9.5, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10494,8 +10755,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1048240062
 SpriteRenderer:
   serializedVersion: 2
@@ -10582,7 +10846,7 @@ Transform:
   m_GameObject: {fileID: 1054770811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -9.5, z: 0}
+  m_LocalPosition: {x: -1, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10600,8 +10864,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1054770814
 SpriteRenderer:
   serializedVersion: 2
@@ -10688,7 +10955,7 @@ Transform:
   m_GameObject: {fileID: 1055990672}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 12, z: 0}
+  m_LocalPosition: {x: -11.5, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10706,8 +10973,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1055990675
 SpriteRenderer:
   serializedVersion: 2
@@ -10794,7 +11064,7 @@ Transform:
   m_GameObject: {fileID: 1072419196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -9.5, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10812,8 +11082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1072419199
 SpriteRenderer:
   serializedVersion: 2
@@ -10900,7 +11173,7 @@ Transform:
   m_GameObject: {fileID: 1094390726}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 7.7, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10918,8 +11191,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1094390729
 SpriteRenderer:
   serializedVersion: 2
@@ -11006,7 +11282,7 @@ Transform:
   m_GameObject: {fileID: 1101981099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 9.5, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11024,8 +11300,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1101981102
 SpriteRenderer:
   serializedVersion: 2
@@ -11112,7 +11391,7 @@ Transform:
   m_GameObject: {fileID: 1141785709}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -9.5, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11130,8 +11409,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1141785712
 SpriteRenderer:
   serializedVersion: 2
@@ -11218,7 +11500,7 @@ Transform:
   m_GameObject: {fileID: 1158280322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11236,8 +11518,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1158280325
 SpriteRenderer:
   serializedVersion: 2
@@ -11324,7 +11609,7 @@ Transform:
   m_GameObject: {fileID: 1167306783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -9.5, z: 0}
+  m_LocalPosition: {x: -9.4, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11342,8 +11627,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1167306786
 SpriteRenderer:
   serializedVersion: 2
@@ -11430,7 +11718,7 @@ Transform:
   m_GameObject: {fileID: 1174031887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 1.25, z: 0}
+  m_LocalPosition: {x: -7.3, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11448,8 +11736,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1174031890
 SpriteRenderer:
   serializedVersion: 2
@@ -11536,7 +11827,7 @@ Transform:
   m_GameObject: {fileID: 1177888336}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11554,8 +11845,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1177888339
 SpriteRenderer:
   serializedVersion: 2
@@ -11642,7 +11936,7 @@ Transform:
   m_GameObject: {fileID: 1185884101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 1.25, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11660,8 +11954,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1185884104
 SpriteRenderer:
   serializedVersion: 2
@@ -11748,7 +12045,7 @@ Transform:
   m_GameObject: {fileID: 1188334598}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -7.3, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11766,8 +12063,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1188334601
 SpriteRenderer:
   serializedVersion: 2
@@ -11933,7 +12233,7 @@ Transform:
   m_GameObject: {fileID: 1219587158}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: 12, z: 0}
+  m_LocalPosition: {x: -7.3, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11951,8 +12251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1219587161
 SpriteRenderer:
   serializedVersion: 2
@@ -12039,7 +12342,7 @@ Transform:
   m_GameObject: {fileID: 1258834522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12057,8 +12360,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1258834525
 SpriteRenderer:
   serializedVersion: 2
@@ -12145,7 +12451,7 @@ Transform:
   m_GameObject: {fileID: 1261299312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12163,8 +12469,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1261299315
 SpriteRenderer:
   serializedVersion: 2
@@ -12251,7 +12560,7 @@ Transform:
   m_GameObject: {fileID: 1287654326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 9.85, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12269,8 +12578,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1287654329
 SpriteRenderer:
   serializedVersion: 2
@@ -12357,7 +12669,7 @@ Transform:
   m_GameObject: {fileID: 1327538580}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -1, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12375,8 +12687,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1327538583
 SpriteRenderer:
   serializedVersion: 2
@@ -12463,7 +12778,7 @@ Transform:
   m_GameObject: {fileID: 1330371994}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 7.7, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12481,8 +12796,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1330371997
 SpriteRenderer:
   serializedVersion: 2
@@ -12569,7 +12887,7 @@ Transform:
   m_GameObject: {fileID: 1331475353}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -9.4, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12587,8 +12905,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1331475356
 SpriteRenderer:
   serializedVersion: 2
@@ -12675,7 +12996,7 @@ Transform:
   m_GameObject: {fileID: 1359806377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -11.5, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12693,8 +13014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1359806380
 SpriteRenderer:
   serializedVersion: 2
@@ -12781,7 +13105,7 @@ Transform:
   m_GameObject: {fileID: 1373430054}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 1.25, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12799,8 +13123,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1373430057
 SpriteRenderer:
   serializedVersion: 2
@@ -12887,7 +13214,7 @@ Transform:
   m_GameObject: {fileID: 1374121296}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12905,8 +13232,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1374121299
 SpriteRenderer:
   serializedVersion: 2
@@ -13068,7 +13398,7 @@ Transform:
   m_GameObject: {fileID: 1401008323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -11.5, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13086,8 +13416,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1401008326
 SpriteRenderer:
   serializedVersion: 2
@@ -13174,7 +13507,7 @@ Transform:
   m_GameObject: {fileID: 1413414528}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13192,8 +13525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1413414531
 SpriteRenderer:
   serializedVersion: 2
@@ -13280,7 +13616,7 @@ Transform:
   m_GameObject: {fileID: 1415141645}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13298,8 +13634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1415141648
 SpriteRenderer:
   serializedVersion: 2
@@ -13386,7 +13725,7 @@ Transform:
   m_GameObject: {fileID: 1417973573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13404,8 +13743,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1417973576
 SpriteRenderer:
   serializedVersion: 2
@@ -13492,7 +13834,7 @@ Transform:
   m_GameObject: {fileID: 1434228732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 7.7, z: 0}
+  m_LocalPosition: {x: -11.5, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13510,8 +13852,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1434228735
 SpriteRenderer:
   serializedVersion: 2
@@ -13598,7 +13943,7 @@ Transform:
   m_GameObject: {fileID: 1437128288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 12, z: 0}
+  m_LocalPosition: {x: -1, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13616,8 +13961,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1437128291
 SpriteRenderer:
   serializedVersion: 2
@@ -13704,7 +14052,7 @@ Transform:
   m_GameObject: {fileID: 1453779017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13722,8 +14070,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1453779020
 SpriteRenderer:
   serializedVersion: 2
@@ -13810,7 +14161,7 @@ Transform:
   m_GameObject: {fileID: 1459500095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13828,8 +14179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1459500098
 SpriteRenderer:
   serializedVersion: 2
@@ -13916,7 +14270,7 @@ Transform:
   m_GameObject: {fileID: 1475862458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 1.25, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13934,8 +14288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1475862461
 SpriteRenderer:
   serializedVersion: 2
@@ -14022,7 +14379,7 @@ Transform:
   m_GameObject: {fileID: 1476501535}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 5.299999, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14040,8 +14397,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1476501538
 SpriteRenderer:
   serializedVersion: 2
@@ -14128,7 +14488,7 @@ Transform:
   m_GameObject: {fileID: 1492859777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -11.5, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14146,8 +14506,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1492859780
 SpriteRenderer:
   serializedVersion: 2
@@ -14234,7 +14597,7 @@ Transform:
   m_GameObject: {fileID: 1496147263}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 9.85, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14252,8 +14615,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1496147266
 SpriteRenderer:
   serializedVersion: 2
@@ -14340,7 +14706,7 @@ Transform:
   m_GameObject: {fileID: 1497751761}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14358,8 +14724,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1497751764
 SpriteRenderer:
   serializedVersion: 2
@@ -14446,7 +14815,7 @@ Transform:
   m_GameObject: {fileID: 1500748414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 9.5, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14464,8 +14833,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1500748417
 SpriteRenderer:
   serializedVersion: 2
@@ -14552,7 +14924,7 @@ Transform:
   m_GameObject: {fileID: 1506730120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 9.85, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14570,8 +14942,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1506730123
 SpriteRenderer:
   serializedVersion: 2
@@ -14658,7 +15033,7 @@ Transform:
   m_GameObject: {fileID: 1530505462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 12, z: 0}
+  m_LocalPosition: {x: -9.4, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14676,8 +15051,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1530505465
 SpriteRenderer:
   serializedVersion: 2
@@ -14764,7 +15142,7 @@ Transform:
   m_GameObject: {fileID: 1531282968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -9.4, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14782,8 +15160,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1531282971
 SpriteRenderer:
   serializedVersion: 2
@@ -14870,7 +15251,7 @@ Transform:
   m_GameObject: {fileID: 1531700859}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -7.3, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14888,8 +15269,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1531700862
 SpriteRenderer:
   serializedVersion: 2
@@ -14976,7 +15360,7 @@ Transform:
   m_GameObject: {fileID: 1534852857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: 7.7, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14994,8 +15378,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1534852860
 SpriteRenderer:
   serializedVersion: 2
@@ -15082,7 +15469,7 @@ Transform:
   m_GameObject: {fileID: 1544941025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 13.699999, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15100,8 +15487,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1544941028
 SpriteRenderer:
   serializedVersion: 2
@@ -15161,6 +15551,55 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1546678196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546678198}
+  - component: {fileID: 1546678197}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1546678197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546678196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbadcc06534723428c7bd46c68336c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  playerInfo: {fileID: 156744951}
+  hpSlider: {fileID: 1583497537}
+  hpText: {fileID: 1664592486}
+  expSlider: {fileID: 527884462}
+  expText: {fileID: 787451163}
+--- !u!4 &1546678198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546678196}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.28625, y: -4.26729, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1558629355
 GameObject:
   m_ObjectHideFlags: 0
@@ -15188,7 +15627,7 @@ Transform:
   m_GameObject: {fileID: 1558629355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15206,8 +15645,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1558629358
 SpriteRenderer:
   serializedVersion: 2
@@ -15294,7 +15736,7 @@ Transform:
   m_GameObject: {fileID: 1560548049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15312,8 +15754,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1560548052
 SpriteRenderer:
   serializedVersion: 2
@@ -15400,7 +15845,7 @@ Transform:
   m_GameObject: {fileID: 1564061116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15418,8 +15863,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1564061119
 SpriteRenderer:
   serializedVersion: 2
@@ -15506,7 +15954,7 @@ Transform:
   m_GameObject: {fileID: 1577945385}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15524,8 +15972,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1577945388
 SpriteRenderer:
   serializedVersion: 2
@@ -15670,9 +16121,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 62.3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15780,7 +16231,7 @@ Transform:
   m_GameObject: {fileID: 1597143792}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15798,8 +16249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1597143795
 SpriteRenderer:
   serializedVersion: 2
@@ -15886,7 +16340,7 @@ Transform:
   m_GameObject: {fileID: 1603425510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 9.85, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15904,8 +16358,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1603425513
 SpriteRenderer:
   serializedVersion: 2
@@ -15992,7 +16449,7 @@ Transform:
   m_GameObject: {fileID: 1607424856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 9.85, z: 0}
+  m_LocalPosition: {x: -1, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16010,8 +16467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1607424859
 SpriteRenderer:
   serializedVersion: 2
@@ -16098,7 +16558,7 @@ Transform:
   m_GameObject: {fileID: 1608506573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -9.5, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16116,8 +16576,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1608506576
 SpriteRenderer:
   serializedVersion: 2
@@ -16204,7 +16667,7 @@ Transform:
   m_GameObject: {fileID: 1643249959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: 7.7, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16222,8 +16685,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1643249962
 SpriteRenderer:
   serializedVersion: 2
@@ -16310,7 +16776,7 @@ Transform:
   m_GameObject: {fileID: 1654345904}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9000006, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: 1.0999994, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16328,8 +16794,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1654345907
 SpriteRenderer:
   serializedVersion: 2
@@ -16553,7 +17022,7 @@ Transform:
   m_GameObject: {fileID: 1676489830}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16571,8 +17040,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1676489833
 SpriteRenderer:
   serializedVersion: 2
@@ -16659,7 +17131,7 @@ Transform:
   m_GameObject: {fileID: 1702537174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 7.7, z: 0}
+  m_LocalPosition: {x: -1, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16677,8 +17149,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1702537177
 SpriteRenderer:
   serializedVersion: 2
@@ -16765,7 +17240,7 @@ Transform:
   m_GameObject: {fileID: 1703353560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.800001, y: -5.200001, z: 0}
+  m_LocalPosition: {x: 13.699999, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16783,8 +17258,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1703353563
 SpriteRenderer:
   serializedVersion: 2
@@ -16871,7 +17349,7 @@ Transform:
   m_GameObject: {fileID: 1703368607}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -0.9000006, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -1.0999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16889,8 +17367,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1703368610
 SpriteRenderer:
   serializedVersion: 2
@@ -16977,7 +17458,7 @@ Transform:
   m_GameObject: {fileID: 1704018004}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 1.25, z: 0}
+  m_LocalPosition: {x: -11.5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16995,8 +17476,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1704018007
 SpriteRenderer:
   serializedVersion: 2
@@ -17083,7 +17567,7 @@ Transform:
   m_GameObject: {fileID: 1705016156}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 9.5, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17101,8 +17585,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1705016159
 SpriteRenderer:
   serializedVersion: 2
@@ -17189,7 +17676,7 @@ Transform:
   m_GameObject: {fileID: 1707749517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 12, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17207,8 +17694,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1707749520
 SpriteRenderer:
   serializedVersion: 2
@@ -17295,7 +17785,7 @@ Transform:
   m_GameObject: {fileID: 1718733435}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 1.25, z: 0}
+  m_LocalPosition: {x: -1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17313,8 +17803,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1718733438
 SpriteRenderer:
   serializedVersion: 2
@@ -17432,7 +17925,7 @@ Transform:
   m_GameObject: {fileID: 1740660156}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 12, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17450,8 +17943,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1740660159
 SpriteRenderer:
   serializedVersion: 2
@@ -17538,7 +18034,7 @@ Transform:
   m_GameObject: {fileID: 1758418444}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17556,8 +18052,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1758418447
 SpriteRenderer:
   serializedVersion: 2
@@ -17644,7 +18143,7 @@ Transform:
   m_GameObject: {fileID: 1765338680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17662,8 +18161,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1765338683
 SpriteRenderer:
   serializedVersion: 2
@@ -17750,7 +18252,7 @@ Transform:
   m_GameObject: {fileID: 1769055015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: -13.800001, z: 0}
+  m_LocalPosition: {x: 11.599998, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17768,8 +18270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1769055018
 SpriteRenderer:
   serializedVersion: 2
@@ -17887,7 +18392,7 @@ Transform:
   m_GameObject: {fileID: 1785039177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -3.0500011, z: 0}
+  m_LocalPosition: {x: -9.4, y: -3.1999989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17905,8 +18410,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1785039180
 SpriteRenderer:
   serializedVersion: 2
@@ -18024,7 +18532,7 @@ Transform:
   m_GameObject: {fileID: 1798638346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18042,8 +18550,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1798638349
 SpriteRenderer:
   serializedVersion: 2
@@ -18196,7 +18707,7 @@ Transform:
   m_GameObject: {fileID: 1811440147}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 9.85, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18214,8 +18725,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1811440150
 SpriteRenderer:
   serializedVersion: 2
@@ -18337,7 +18851,7 @@ Transform:
   m_GameObject: {fileID: 1844336732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -9.5, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -9.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18355,8 +18869,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1844336735
 SpriteRenderer:
   serializedVersion: 2
@@ -18443,7 +18960,7 @@ Transform:
   m_GameObject: {fileID: 1865733966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3500004, y: -11.650002, z: 0}
+  m_LocalPosition: {x: 7.3999996, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18461,8 +18978,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1865733969
 SpriteRenderer:
   serializedVersion: 2
@@ -18616,7 +19136,7 @@ Transform:
   m_GameObject: {fileID: 1887852025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18634,8 +19154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1887852028
 SpriteRenderer:
   serializedVersion: 2
@@ -18722,7 +19245,7 @@ Transform:
   m_GameObject: {fileID: 1900299200}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: -1, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18740,8 +19263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1900299203
 SpriteRenderer:
   serializedVersion: 2
@@ -18828,7 +19354,7 @@ Transform:
   m_GameObject: {fileID: 1914474012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -5.200001, z: 0}
+  m_LocalPosition: {x: -11.5, y: -5.299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18846,8 +19372,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1914474015
 SpriteRenderer:
   serializedVersion: 2
@@ -18934,7 +19463,7 @@ Transform:
   m_GameObject: {fileID: 1931035803}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: 1.25, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18952,8 +19481,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1931035806
 SpriteRenderer:
   serializedVersion: 2
@@ -19040,7 +19572,7 @@ Transform:
   m_GameObject: {fileID: 1956775802}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -11.650002, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -11.599998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19058,8 +19590,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &1956775805
 SpriteRenderer:
   serializedVersion: 2
@@ -19146,7 +19681,7 @@ Transform:
   m_GameObject: {fileID: 2014691115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: 7.7, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: 7.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19164,8 +19699,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2014691118
 SpriteRenderer:
   serializedVersion: 2
@@ -19252,7 +19790,7 @@ Transform:
   m_GameObject: {fileID: 2025834270}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 9.85, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19270,8 +19808,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2025834273
 SpriteRenderer:
   serializedVersion: 2
@@ -19358,7 +19899,7 @@ Transform:
   m_GameObject: {fileID: 2044037635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.200001, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: 5.299999, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19376,8 +19917,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2044037638
 SpriteRenderer:
   serializedVersion: 2
@@ -19464,7 +20008,7 @@ Transform:
   m_GameObject: {fileID: 2061759171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0500011, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: 3.1999989, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19482,8 +20026,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2061759174
 SpriteRenderer:
   serializedVersion: 2
@@ -19570,7 +20117,7 @@ Transform:
   m_GameObject: {fileID: 2081333829}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -1, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19588,8 +20135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2081333832
 SpriteRenderer:
   serializedVersion: 2
@@ -19676,7 +20226,7 @@ Transform:
   m_GameObject: {fileID: 2089328021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3999996, y: -7.3500004, z: 0}
+  m_LocalPosition: {x: -3.1000004, y: -7.3999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19694,8 +20244,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2089328024
 SpriteRenderer:
   serializedVersion: 2
@@ -19782,7 +20335,7 @@ Transform:
   m_GameObject: {fileID: 2108561706}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5499997, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -5.2000003, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19800,8 +20353,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2108561709
 SpriteRenderer:
   serializedVersion: 2
@@ -19888,7 +20444,7 @@ Transform:
   m_GameObject: {fileID: 2113412658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 3.3999996, z: 0}
+  m_LocalPosition: {x: -11.5, y: 3.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19906,8 +20462,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2113412661
 SpriteRenderer:
   serializedVersion: 2
@@ -19994,7 +20553,7 @@ Transform:
   m_GameObject: {fileID: 2121084175}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -13.800001, z: 0}
+  m_LocalPosition: {x: -1, y: -13.699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20012,8 +20571,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2121084178
 SpriteRenderer:
   serializedVersion: 2
@@ -20100,7 +20662,7 @@ Transform:
   m_GameObject: {fileID: 2123884121}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.650002, y: 5.5499997, z: 0}
+  m_LocalPosition: {x: 11.599998, y: 5.2000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20118,8 +20680,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86902933f33fd94c88ed246ebf88c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundReposition
-  mapSize: 27.95
+  mapSize: 27.3
   playerTransform: {fileID: 156744944}
+  columns: 13
+  spacingX: 2.1
+  spacingY: 2.1
 --- !u!212 &2123884124
 SpriteRenderer:
   serializedVersion: 2
@@ -20188,3 +20753,4 @@ SceneRoots:
   - {fileID: 546236016}
   - {fileID: 420543768}
   - {fileID: 1217636815}
+  - {fileID: 1546678198}
