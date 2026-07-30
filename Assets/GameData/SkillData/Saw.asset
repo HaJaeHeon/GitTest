@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Saw
   m_EditorClassIdentifier: Assembly-CSharp::SkillSystem
   skillId: 3
-  skillLevel: 0
+  skillLevel: 1
   skillName: Saw
   skillCooldown: 7
   skillDamage: 5

@@ -12,6 +12,7 @@ public class PlayerSkill_Aura : Skill
             isActive = true;
             GameObject skill = Instantiate(skillPrefab);
             skill.transform.parent = player.transform;
+            skill.transform.position = Vector3.zero;
         }
     }
 }

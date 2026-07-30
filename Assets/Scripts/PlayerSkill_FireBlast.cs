@@ -6,6 +6,7 @@ public class PlayerSkill_FireBlast : Skill
     [SerializeField] private float skillTimer;    
     public override void CastSkill(GameObject player)
     {
+        skillTimer += Time.deltaTime;
         if (skillData.skillLevel >= 1 && skillTimer > skillData.skillCooldown)
         {
             skillTimer = 0f;

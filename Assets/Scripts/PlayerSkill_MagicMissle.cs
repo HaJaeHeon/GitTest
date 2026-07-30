@@ -6,6 +6,7 @@ public class PlayerSkill_MagicMissle : Skill
     [SerializeField] private float skillTimer;    
     public override void CastSkill(GameObject player)
     {
+        skillTimer += Time.deltaTime;
         if (skillData.skillLevel >= 1 && skillTimer > skillData.skillCooldown)
         {
             skillTimer = 0f;
