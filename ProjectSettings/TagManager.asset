@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Item
+  - Skill
+  - FireSkill
   layers:
   - Default
   - TransparentFX

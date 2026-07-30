@@ -8,6 +8,6 @@ public class SkillData : ScriptableObject
     public int skillLevel;
     public string skillName;
     public float skillCooldown;
-    public float skillDamage;
+    public int skillDamage;
     public Sprite skillSprite;
 }

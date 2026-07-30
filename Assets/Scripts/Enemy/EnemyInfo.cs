@@ -10,6 +10,10 @@ public class EnemyInfo : MonoBehaviour
         private set
         {
             enemy_Hp = Mathf.Clamp(value, 0, enemy_MaxHp);
+            if(enemy_Hp == 0)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 
