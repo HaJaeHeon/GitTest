@@ -16,8 +16,9 @@ public class PlayerSkill_FireBlast : Skill
         {
             skillTimer = 0f;
             GameObject skill = Instantiate(skillPrefab);
+            skill.transform.parent = transform;
             skill.transform.position = player.transform.position;
-            skill.transform.LookAt(direction);
+            skill.transform.up = direction;
             Destroy(skill, duration);
         }
     }

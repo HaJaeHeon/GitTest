@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpikeBall
   m_EditorClassIdentifier: Assembly-CSharp::SkillSystem
   skillId: 5
-  skillLevel: 0
+  skillLevel: 1
   skillName: SpikeBall
   skillCooldown: 5
   skillDamage: 7

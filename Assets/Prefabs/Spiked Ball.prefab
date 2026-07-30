@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1730440723463852850}
   m_Layer: 8
   m_Name: Spiked Ball
-  m_TagString: Untagged
+  m_TagString: Skill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8257924285867725487}
   m_Layer: 8
   m_Name: FireBlast
-  m_TagString: Untagged
+  m_TagString: Skill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 1660078732139374500}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7ac45ca0f3000324395c431615e52db8, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

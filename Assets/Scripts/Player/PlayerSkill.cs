@@ -67,7 +67,7 @@ public class PlayerSkill : MonoBehaviour
     private void CastingMagicMissile()
     {
         magicMissle.CastSkill(gameObject, CalcTargetPosition());
-        Debug.Log(CalcTargetPosition());
+        //Debug.Log(CalcTargetPosition());
     }
     private void CastingSaw()
     {
