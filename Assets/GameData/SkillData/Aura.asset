@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Aura
   m_EditorClassIdentifier: Assembly-CSharp::SkillSystem
   skillId: 4
-  skillLevel: 0
+  skillLevel: 1
   skillName: Aura
   skillCooldown: 0.5
   skillDamage: 2

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FIreBlast
   m_EditorClassIdentifier: Assembly-CSharp::SkillSystem
   skillId: 2
-  skillLevel: 1
+  skillLevel: 0
   skillName: FIreBlast
   skillCooldown: 2
   skillDamage: 5

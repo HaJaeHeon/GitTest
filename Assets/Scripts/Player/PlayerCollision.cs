@@ -26,7 +26,7 @@ public class PlayerCollision : MonoBehaviour
             currentTimer = 0f;
             animator.AniTrigger("Hit");
             playerInfo.TakeDamage(10);
-            Debug.Log("EnterHit");
+            //Debug.Log("EnterHit");
         }
 
         if(collision.gameObject.CompareTag("Item"))
@@ -42,7 +42,7 @@ public class PlayerCollision : MonoBehaviour
             currentTimer = 0f;
             animator.AniTrigger("Hit");
             playerInfo.TakeDamage(10);
-            Debug.Log("StayHit");
+            //Debug.Log("StayHit");
         }
     }
 }

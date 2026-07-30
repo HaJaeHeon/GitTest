@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4012549694692200673}
   - component: {fileID: 7527367382571407498}
   - component: {fileID: 8710265465510707119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -2514,6 +2514,8 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: ba466a35101422a478ce8dd87bfc345b, type: 2}
   skillPrefab: {fileID: 1660078732139374500, guid: 7175b0c5e3094b64097be092d42d4384, type: 3}
   skillTimer: 0
+  skillSpeed: 2
+  duration: 3
 --- !u!114 &156744955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2529,6 +2531,8 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: c2c8382ab17f66442a76b2cc6b2d3078, type: 2}
   skillPrefab: {fileID: 4342740741486744439, guid: 107720181ea5aa04eb69377f293aa88d, type: 3}
   skillTimer: 0
+  skillSpeed: 5
+  duration: 5
 --- !u!114 &156744956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2544,6 +2548,8 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: 0d070f1691f9a53409731de5536af7e8, type: 2}
   skillPrefab: {fileID: 2662479059668056155, guid: 783f467ff22f9e14f91bba3c8c3ade45, type: 3}
   skillTimer: 0
+  skillSpeed: 5
+  duration: 5
 --- !u!114 &156744957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2559,6 +2565,8 @@ MonoBehaviour:
   skillData: {fileID: 11400000, guid: bc15f944fa96fc14285a08fb24b507f0, type: 2}
   skillPrefab: {fileID: 2118998453555136152, guid: 7018ebb3e1db1f74ba174f153a7df9ab, type: 3}
   skillTimer: 0
+  skillSpeed: 6
+  duration: 6
 --- !u!114 &156744958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2576,6 +2584,10 @@ MonoBehaviour:
   magicMissle: {fileID: 0}
   saw: {fileID: 0}
   spikeBall: {fileID: 0}
+  detectEnemySize: 5
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &158479947
 GameObject:
   m_ObjectHideFlags: 0

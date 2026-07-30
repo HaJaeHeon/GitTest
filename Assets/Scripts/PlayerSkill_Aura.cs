@@ -5,7 +5,7 @@ public class PlayerSkill_Aura : Skill
     [SerializeField] private GameObject skillPrefab;
     [SerializeField] private bool isActive;
     
-    public override void CastSkill(GameObject player)
+    public override void CastSkill(GameObject player, Vector2 direction)
     {
         if (skillData.skillLevel >= 1 && !isActive)
         {
